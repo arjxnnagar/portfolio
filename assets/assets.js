@@ -116,7 +116,7 @@ export const workData = [
       "A full-stack accommodation booking application featuring authentication, property listings, booking management, and responsive design.",
     techStack: ["React", "Express", "MongoDB", "Node.js"],
     github: "https://github.com/arjxnnagar/DriftStay",
-    live: "",
+    live: "https://github.com/arjxnnagar/DriftStay",
     bgImage: "/work-3.png",
   },
 
@@ -130,18 +130,6 @@ export const workData = [
     github: "https://github.com/arjxnnagar/chat-app",
     live: "https://chat-app-one-blue.vercel.app/",
     bgImage: "/work-4.png",
-  },
-
-  {
-    id: 5,
-    title: "myGit",
-    subtitle: "CLI Version Control System",
-    description:
-      "A command-line version control system inspired by Git, implementing repository initialization, commits, branching, and version history.",
-    techStack: ["JavaScript", "Node.js", "CLI"],
-    github: "https://github.com/arjxnnagar/myGit",
-    live: "",
-    bgImage: "/work-5.png",
   },
 ];
 

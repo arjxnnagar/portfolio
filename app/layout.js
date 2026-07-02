@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${outfit.variable} ${ovo.variable} h-full antialiased overflow-x-hidden leading-8 scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col dark:bg-dark-theme dark:text-white">
+        {children}
+      </body>
     </html>
   );
 }
