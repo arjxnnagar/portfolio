@@ -49,7 +49,7 @@ const Header = () => {
       variants={container}
       initial="hidden"
       animate="visible"
-      className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 mt-5"
+      className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 mt-20 md:mt-20"
     >
       {/* Profile Image */}
       <motion.div variants={zoomIn}>
